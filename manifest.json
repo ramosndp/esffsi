@@ -4,6 +4,7 @@
     "scope": "/",	
     "display": "fullscreen",
     "theme_color": "blue",
+    "background_color":"blue",
     "icons": [{
             "src": "clapperboard64.png",
             "sizes": "64x64"
