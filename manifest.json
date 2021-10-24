@@ -3,7 +3,7 @@
     "start_url": "/",
     "scope": "/",	
     "display": "fullscreen",
-    "theme_color": "red",
+    "theme_color": "blue",
     "icons": [{
             "src": "clapperboard64.png",
             "sizes": "64x64"
@@ -15,6 +15,10 @@
         {
             "src": "clapperboard256.png",
             "sizes": "256x256"
+        },
+        {
+            "src": "clapperboard512.png",
+            "sizes": "512x512"
         }
     ]
 }
