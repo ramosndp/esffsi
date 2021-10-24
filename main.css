@@ -10,6 +10,12 @@
 	margin-left: auto;
     margin-right: auto;
 }
+
+.offline-notification {
+  transition: transform 0.3s;
+  transform: translateY(-100%) 
+}	  
+
 .offline {
   .offline-notification {
     transition: transform 0.3s;
