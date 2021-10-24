@@ -10,3 +10,8 @@
 	margin-left: auto;
     margin-right: auto;
 }
+.offline {
+  .offline-notification {
+    transition: transform 0.3s;
+    transform: translateY(0) translateX(-50%);
+ }
