@@ -10,16 +10,3 @@
 	margin-left: auto;
     margin-right: auto;
 }
-
-.offline-notification {
-  visibility: hidden;
-  background: #222;
-  color: red;
-  padding: 0.5em;
-  text-align: center;	  
-}	  
-
-.offline {
-  .offline-notification {
-  visibility: visible;
- }
