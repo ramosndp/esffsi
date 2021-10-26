@@ -9,4 +9,31 @@
     height: auto;
 	margin-left: auto;
     margin-right: auto;
+	filter: grayscale(50%);
+	animation: hue 3s infinite;
 }
+
+@keyframes hue {
+  0%, 100%  { filter: grayscale(50%) }
+  50% { filter: grayscale(75%) }
+}
+
+.offline .offline-notification {
+  display: block;
+}
+
+.offline-notification {  
+  position: fixed;
+  left: 50%;
+  bottom: 0%;
+  background: #222;
+  color: white;
+  padding: 0.5em;
+  text-align: center;
+  display:none;
+}
+body{
+	background-color:#607D8B;
+	color:white;
+	font-family: 'Roboto Mono', monospace;
+}	
