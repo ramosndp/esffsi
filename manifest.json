@@ -1,10 +1,12 @@
 {
     "name": "PWA Filmes SI 1229",
+    "short_name": "FilmSI 1229",
     "start_url": "/",
     "scope": "/",	
     "display": "standalone",
-    "theme_color": "blue",
-    "background_color":"blue",    
+    "theme_color": "#3700B3",
+    "background_color":"#03DAC5", 
+    "lang":"pt",   
     "display_override": ["window-controls-overlay"],
     "icons": [{
             "src": "clapperboard64.png",
